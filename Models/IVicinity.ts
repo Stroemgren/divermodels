@@ -6,6 +6,6 @@ export interface IVicinity {
     location: ILocation;
     items: {
         distance: number;
-        item: ISite | ICenter
+        item: (ISite | ICenter)[]
     }
 }
