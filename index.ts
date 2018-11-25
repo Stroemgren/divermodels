@@ -1,4 +1,4 @@
 export * from './Models/ICenter';
-export * from './Models/ILocation';
+export * from './Models/ICoordinate';
 export * from './Models/ISite';
 export * from './Models/IVicinity';
