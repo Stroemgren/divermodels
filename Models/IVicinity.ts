@@ -1,10 +1,13 @@
 import { ICenter } from "./ICenter";
-import { ILocation } from "./ILocation";
+import { ICoordinate } from "./ICoordinate";
 import { ISite } from "./ISite";
 
+export type ILocationType = 'site' | 'center';
+
 export interface IVicinity {
-    location: ILocation;
-    items: {
+    coordinate: ICoordinate;
+    locations: {
+        type: ILocationType;
         distance: number;
         item: ISite | ICenter
     }[]
