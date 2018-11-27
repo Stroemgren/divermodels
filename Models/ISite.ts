@@ -1,3 +1,5 @@
+import { ICoordinate } from "./ICoordinate";
+
 export interface ISite {
     id: string;
     name: string;
@@ -8,6 +10,5 @@ export interface ISite {
     diveType?: string;
     country?: string;
     ocean?: string;
-    latitude?: number;
-    longitude?: number;
+    coordinate: ICoordinate;
 }
