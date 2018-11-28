@@ -6,7 +6,7 @@ export interface ICenterSuggestion {
     coordinate: ICoordinate;
 }
 
-export interface ISiteSuggestions {
+export interface ISiteSuggestion {
     id: string;
     name: string;
     coordinate: ICoordinate;
